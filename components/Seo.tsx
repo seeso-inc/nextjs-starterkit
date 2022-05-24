@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from 'next/head';
 import { useRouter } from 'next/router';
 
 interface Props {
@@ -28,8 +28,8 @@ const Seo = ({
   const description = pageDescription || defaultDescription;
   const url = pagePath || defaultPath;
   const imgUrl = pageImg || '/og-img.png';
-  const imgWidth = pageImgWidth ? pageImgWidth : 1280;
-  const imgHeight = pageImgHeight ? pageImgHeight : 640;
+  const imgWidth = pageImgWidth || 1280;
+  const imgHeight = pageImgHeight || 640;
 
   return (
     <Head>
@@ -46,7 +46,7 @@ const Seo = ({
       <meta property="og:image:height" content={String(imgHeight)} />
       <link rel="canonical" href={url} />
     </Head>
-  )
-}
+  );
+};
 
 export default Seo;

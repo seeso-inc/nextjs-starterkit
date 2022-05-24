@@ -6,7 +6,7 @@ import NotiBar from 'components/NotiBar';
 
 type Props = {
   children?: ReactNode
-  title?: string
+  // title?: string
 }
 
 const Layout = ({ children }: Props) => {
@@ -32,6 +32,6 @@ const Layout = ({ children }: Props) => {
       </div>
     </div>
   );
-}
+};
 
-export default Layout
+export default Layout;

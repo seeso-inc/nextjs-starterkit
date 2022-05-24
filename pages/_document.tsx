@@ -9,12 +9,12 @@ class MyDocument extends Document<any> {
     const page = renderPage(App => props => sheet.collectStyles(<App {...props} />));
     const styleTags = sheet.getStyleElement();
     const initialProps = await Document.getInitialProps(ctx);
-    return { ...page, ...initialProps, styleTags }
+    return { ...page, ...initialProps, styleTags };
   }
 
   render() {
     return (
-      <html>
+      <html lang="ko">
         <Head>
           <meta charSet="utf-8" />
           {this.props.styleTags}

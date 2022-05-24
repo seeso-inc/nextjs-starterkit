@@ -9,8 +9,10 @@
   "dependencies": {
     "axios": "^0.27.2",
     "axios-case-converter": "^0.9.0",
+    "katex": "^0.15.6",
     "next": "latest",
     "notion-client": "^6.12.9",
+    "prismjs": "^1.28.0",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-notion-x": "^6.12.9",
@@ -20,7 +22,20 @@
     "@types/node": "^16.11.36",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
     "babel-plugin-styled-components": "^2.0.7",
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-next": "^12.1.6",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "prettier": "^2.6.2",
     "typescript": "^4.6.4"
   }
 }

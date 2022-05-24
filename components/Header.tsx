@@ -3,7 +3,7 @@ import Logo from 'components/Logo';
 
 const Header = () => {
   const onToggle = () => {
-
+    console.log('toggle');
   };
 
   return (
@@ -20,7 +20,7 @@ const Header = () => {
         </button>
       </nav>
     </header>
-  )
+  );
 };
 
 export default Header;

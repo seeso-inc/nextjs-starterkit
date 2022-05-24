@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const NotiBar = styled.div`
+const StyledNotiBar = styled.div`
   position: fixed;
   top: 0;
   background: #e0fe52;
@@ -9,14 +9,14 @@ const NotiBar = styled.div`
   width: 100vw;
   z-index: 50;
 
-  & > a {
+  & > span{
     display: block;
     padding: 16px 24px;
     text-decoration: none;
     color: #0d1240;
   }
 
-  & > a > p {
+  & > span > p {
     font-weight: bold;
     font-size: 16px;
   }
@@ -24,7 +24,7 @@ const NotiBar = styled.div`
   @media (max-width: 786px) {
     height: 48px;
 
-    & > a > p {
+    & > span > p {
       font-size: 12px;
     }
   }
@@ -34,12 +34,12 @@ interface Props {
   text: string;
 }
 
-export default ({ text }: Props) => {
-  return (
-    <NotiBar className="top-bnr">
-      <a>
-        <p>{text}</p>
-      </a>
-    </NotiBar>
-  );
-}
+const NotiBar = ({ text }: Props) => (
+  <StyledNotiBar className="top-bnr">
+    <span>
+      <p>{text}</p>
+    </span>
+  </StyledNotiBar>
+);
+
+export default NotiBar;

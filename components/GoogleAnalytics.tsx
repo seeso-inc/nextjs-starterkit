@@ -19,7 +19,7 @@ const GoogleAnalytics = () => {
         `}
       </Script>
     </>
-  )
-}
+  );
+};
 
 export default GoogleAnalytics;
