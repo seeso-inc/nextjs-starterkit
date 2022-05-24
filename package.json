@@ -10,8 +10,10 @@
     "axios": "^0.27.2",
     "axios-case-converter": "^0.9.0",
     "next": "latest",
+    "notion-client": "^6.12.9",
     "react": "18.1.0",
     "react-dom": "18.1.0",
+    "react-notion-x": "^6.12.9",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
