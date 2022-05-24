@@ -7,6 +7,8 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "axios": "^0.27.2",
+    "axios-case-converter": "^0.9.0",
     "next": "latest",
     "react": "18.1.0",
     "react-dom": "18.1.0",
