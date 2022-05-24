@@ -9,7 +9,7 @@
 - styled-component
 
 ## Deployment Support
-- Github Action
+- Github Action (CI/CD)
 - vercel (to use as dev)
 - serverless-component (to use as prod)
 
@@ -44,4 +44,10 @@ npx eslint .
 
 ```
 yarn storybook
+```
+
+### deploy (via serverless-component)
+
+```
+npx serverless
 ```
