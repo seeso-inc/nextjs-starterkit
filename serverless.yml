@@ -1,0 +1,10 @@
+secondteam-report:
+  component: "@sls-next/serverless-component@3.7.0"
+  # inputs:
+  #   name:
+  #     defaultLambda: <id>
+  #     imageLambda: <id>
+  #   bucketRegion: "<region name>"
+  #   bucketName: "<bucket name>"
+  #   cloudfront:
+  #     distributionId: "<id>"
