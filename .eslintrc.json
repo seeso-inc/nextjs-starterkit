@@ -9,6 +9,9 @@
     "browser": true, // browser 인식 Ok
     "es6": true // es6 버전사용 OK
   },
+  "resolutions": {
+    "webpack": "^5"
+  },
   "plugins": ["@typescript-eslint", "prettier", "react"],
   "extends": [
     "eslint:recommended",
