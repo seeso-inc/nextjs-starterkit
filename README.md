@@ -15,6 +15,8 @@
 
 ## Useful Util Support
 - API Client
+  - auto managing for JWT
+  - auto detect 401
 - SSR based SEO
 - Simple state-management
 
@@ -22,12 +24,20 @@
 - eslint
 - prettier
 
-## ETC dependencies
-- axios
-- react-hook-form
-
 ## Getting Started
+### Start project
 
+```
+npx create-nextapp /path/to/dir --example https://github.com/tinyjin/nextjs-starterkit
+```
+
+### Install dependencies
+
+```
+yarn
+```
+
+## How to use
 ### run
 
 ```
